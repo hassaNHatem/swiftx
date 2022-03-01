@@ -1,5 +1,13 @@
 .container{
   width: 90%;
   margin: 0 auto;
-  height: 500px;
+  position: relative;
+  height: 100vh;
+}
+.overlay{
+  position: absolute;
+  width: 100vw;
+  height: 92vh;
+  bottom: 0;
+  background-color: rgba(57, 55, 72, 0.22);
 }
