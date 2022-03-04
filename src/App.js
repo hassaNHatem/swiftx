@@ -3,6 +3,7 @@ import { CardModal } from './cart/CardModal';
 import { Navbar  } from './Navbar/Navbar';
 import { Products } from './products/Products';
 import {Product} from './product/Product'
+import { Cart } from './cart/Cart';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
     {/* <div className='overlay'></div> */}
     <div className="App container">
       <Navbar></Navbar>
-      <Product></Product>
+      <Cart></Cart>
+      {/* <Product></Product> */}
       {/* <Products></Products>
       <CardModal></CardModal> */}
     </div>
